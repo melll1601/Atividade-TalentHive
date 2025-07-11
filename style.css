@@ -39,6 +39,13 @@ body{
     align-items: center;
 }
 
+h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: -4%;
+}
+
 .logo h1 {
     color: var(--primary-color);
     font-weight: 500;
@@ -68,5 +75,75 @@ body{
 
 .hero-text p{
     font-size: 0.875rem ;
+    padding-bottom: 2.5rem;
 }
 
+.hero-img img{
+    max-width: 100%;
+    padding-bottom: 6.8rem;
+}
+
+.intro-video h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+
+.intro-video img{
+    max-width: 100%;
+    padding-bottom: 6.8rem ;
+}
+
+.choose-us h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 0rem 2rem;
+    margin-bottom: 29px;
+}
+
+.choose-us-card{
+    background-color: var(--secund-color);
+    border-radius: 20px ;
+}
+
+.choose-us-card img{
+    max-width: 90%;
+    padding: 50px 0px 40px 0px;
+    display: block;
+    margin: 0 auto;
+}
+
+.choose-us li{
+    background-color: var(--text-light);
+    margin: 10px 22px 10px 22px;
+    border-radius: 8px ;
+    list-style: none;
+    text-align: left;
+    padding: 17px 0px 17px 11px ;
+}
+
+
+.choose-us h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.choose-us p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    font-weight: 400;
+    font-size: 10px;
+    max-width: 65%;
+}
+.list-questions{
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    border-radius: 20px ;
+    color: var(--text-light);
+}
