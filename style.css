@@ -27,7 +27,6 @@ body{
 
 .container{
     width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -41,7 +40,6 @@ body{
 
 h2{
     text-align: center;
-    font-size: 30px;
     line-height: 42px;
     letter-spacing: -4%;
 }
@@ -69,8 +67,12 @@ h2{
 }
 
 .hero-text h2{
-    font-size: 2.5rem ;
+    font-size: clamp(1rem, 9.8rem, 5rem);
     padding-bottom: 1.3rem;
+    max-width: auto;
+    line-height: 106px;
+    letter-spacing: -4%;
+    margin: 0 auto;
 }
 
 .hero-text p{
@@ -147,3 +149,109 @@ h2{
     border-radius: 20px ;
     color: var(--text-light);
 }
+
+
+
+.upper-part h2{
+    font-size: calc(2rem + 14px) ;
+    text-align: left;
+    padding: 68px 0px 21px 21px;
+    width: 299px;
+    font-weight: 500;
+}
+
+.upper-part p {
+    font-size: calc(1rem - 2px);
+    margin: 0px 137px 27px 20px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.upper-part a{
+    display: inline-block;
+    font-size: calc(1rem - 2px);
+    padding: 13px 22px ;
+    background-color: var(--background-color);
+    border-radius: calc(6rem + 4px);
+    font-weight: 600;
+    color: var(--text-dark);
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    margin: 0px 0px 80px 20px;
+}
+
+.upper-part::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: var(--background-color);
+    width: 388px;
+    margin: 0px 20px 79px 20px;
+}
+
+.talenthive-text{
+    padding: 0px 95px 0px 21px ;
+}
+
+.talenthive-text h3{
+    font-size: calc(1rem + 4px);
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+.talenthive-text p{
+    font-size:  calc(1rem - 2px);
+    width: 195px;
+}
+
+.link a{
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0px 20px 22px 0px;
+    padding-bottom: 22px;
+}
+
+.footer-discover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-others{
+    display: flex;
+}
+.footer-questions{
+    padding: 74px 40px 76px 21px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-terms{
+    padding: 74px 40px 76px 21px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footer-social{
+    padding: 74px 0px 76px 21px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.last-part p{
+    max-width: 288px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: calc(1rem - 2px);
+    margin: 0 auto;
+}
+
