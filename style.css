@@ -18,11 +18,18 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1905;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'SpaceGrotesk', sans-serif;
+}
+
+h2{
+    text-align: center;
+    line-height: 42px;
+    letter-spacing: -4%;
 }
 
 .container{
@@ -32,17 +39,13 @@ body{
 
 
 .header-inner{
+    padding-top: 1.25rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0rem 4rem 0rem;
     align-items: center;
 }
 
-h2{
-    text-align: center;
-    line-height: 42px;
-    letter-spacing: -4%;
-}
+
 
 .logo h1 {
     color: var(--primary-color);
@@ -52,6 +55,10 @@ h2{
 }
 
 .menu-desktop{
+    display: none;
+}
+
+.menu-actions{
     display: none;
 }
 
@@ -255,3 +262,60 @@ h2{
     margin: 0 auto;
 }
 
+.menu-desktop{
+    color: var(--text-dark);
+    list-style: none;
+    font-size: calc(1rem + 2px);
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+
+}
+
+.menu-actions{
+    color: var(--text-dark);
+    list-style: none;
+    font-size: calc(1rem + 2px);
+    font-weight: 400;
+    line-height: 100%;
+    gap: calc(2rem + 3px);
+    align-items: center;
+}
+
+.menu-actions a{
+    text-decoration: none;
+}
+
+#start-free{
+    padding: 1.1875rem 2.19rem;
+    background-color: #3778FA;
+    border-radius: 6.25rem ;
+    color: #ffffff;
+}
+
+@media (min-width: 768px){
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between; /* ou space-between, se quiser espaçar */
+        align-items: center;
+    }
+      
+    .menu-desktop {
+        display: flex;
+        justify-content: space-between;
+        gap: 2.6875rem;
+        font-size: calc(1rem + 2px);
+    }
+
+    .menu-actions{
+        display: flex;
+    }
+    
+    #menu-smartphone{
+        display: none;
+    }
+}
