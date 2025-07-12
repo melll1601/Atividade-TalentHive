@@ -289,11 +289,15 @@ h2{
     text-decoration: none;
 }
 
-#start-free{
+#start-free {
     padding: 1.1875rem 2.19rem;
     background-color: #3778FA;
     border-radius: 6.25rem ;
     color: #ffffff;
+}
+
+#start-free a{
+    color: var(--text-light);
 }
 
 @media (min-width: 768px){
