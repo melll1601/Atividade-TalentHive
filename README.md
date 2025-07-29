@@ -1,6 +1,6 @@
 # TalentHive 💻 -  Atividade Prática
 
-O objetivo dessa atividade foi recriar o projeto do figma passado pelo professor no dia 10 de Julho. 
+O objetivo dessa atividade foi recriar o projeto do figma em código, criando o html e o css do design passado pelo professor. 
 
 <br>
 
