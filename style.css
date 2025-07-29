@@ -74,8 +74,8 @@ h2{
 .hero-text h2{
     font-size: clamp(1.875rem, 9.4vw, 8rem);
     padding: 11.3rem 0rem 1.3rem 0rem ;
-    line-height: 156px;
-    letter-spacing: -4%;
+    line-height: clamp(56px, 6.77vw, 156px);
+    letter-spacing: -0.04em;
     margin: 0 auto;
     font-weight: 600;
 
@@ -95,12 +95,14 @@ h2{
 }
 
 .intro-video h2{
-    text-align: center;
-    font-size: clamp(1.875rem, 6.94vw, 8rem);
+    max-width: 1075px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: clamp(30px, 4.5vw, 100px);
     padding-bottom: 5rem;
     font-weight: 600;
-    line-height: 116px;
-    letter-spacing: -4%;
+    line-height: clamp(42px, 6vw, 116px);
+    letter-spacing: -0.04em;
 }
 
 .intro-video img{
@@ -109,12 +111,15 @@ h2{
 }
 
 .choose-us h2{
+    max-width: 814px;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    font-size: clamp(1.875rem, 6.94vw, 8rem);
+    font-size: clamp(30px, 4.5vw, 100px);
     padding: 0rem 2rem;
     font-weight: 600;
-    line-height: 116px;
-    letter-spacing: -4%;
+    line-height: clamp(42px, 6vw, 116px);
+    letter-spacing: -0.04em;
     max-width:60rem ;
     margin: 0 auto;
     padding-bottom: 5rem;
