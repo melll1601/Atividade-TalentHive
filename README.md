@@ -8,7 +8,7 @@ O objetivo dessa atividade foi recriar o projeto do figma passado pelo professor
 
 -> Link: https://www.figma.com/design/aqSgZ9jU2OD9wvzytkNCVm/Atividade-Mobile-First?node-id=0-1&p=f 
 
-Nós utilizamos o design do figma para pegar as imagens, informações e também ver os detalhes de cada elemento ->
+Nós utilizamos o design do figma para pegar as imagens, informações e também ver os detalhes de cada elemento 
 
 (tamanho, margin, padding, etc)
 
